@@ -54,7 +54,7 @@
 | 🟦 Domain-specific languages   | ⬜ Hidden class       | 🟩 Async Iterator    |                          |
 | 🟩 Multi-paradigm programming  | ⬜ Object form        |                      |                          |
 | ⬜ Metaprogramming             | 🟩 instance           |                      |                          |
-| 🟩 Actor model                 | ⬜ Introspection      |                      |                          |
+| ⬜ Actor model                 | ⬜ Introspection      |                      |                          |
 |                                | ⬜ Reflection         |                      |                          |
 
 ## Asynchronous programming
@@ -72,7 +72,7 @@
 | 🟩 Thenable            | 🟦 Atomics                     | ⬜ kqueue           | 🟩 Promise.any           |
 | 🟩 EventEmitter        | 🟦 Blockeing operations        | ⬜ Completion ports | ⬜ Web Locks API         |
 | 🟩 Cancelable callback | 🟦 Non-blocking loop for Array | ⬜ Event ports      | ⬜ Async Pool            |
-| 🟩 Cancelable Promise  | ⬜ High resolution clock       | 🟦 libuv            | ⬜ Thread Pool           |
+| 🟩 Cancelable Promise  | ⬜ High resolution clock       | 🟩 libuv            | ⬜ Thread Pool           |
 | 🟩 Asynchronous Queue  | 🟩 Callback hell               | 🟩 Race conditions  | 🟩 callbackify           |
 | 🟩 Future              | 🟩 Promise hell                | 🟦 Dead locks       | 🟩 promisify             |
 | 🟩 Deferred            |                                | 🟦 Live locks       | ⬜ IPC                   |
